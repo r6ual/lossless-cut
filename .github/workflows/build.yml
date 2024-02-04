@@ -11,7 +11,8 @@ on:
 
 jobs:
   release:
-    runs-on: ${{ matrix.os }}
+#    runs-on: ${{ matrix.os }}
+    runs-on: selfhosted
     timeout-minutes: 60
 
     env:
